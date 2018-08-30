@@ -10,7 +10,7 @@ Developed in Stockholm, Sweden, the Volumental solution drives sales, increases 
 
 
 
-### ✅How to complete this project
+### ✅ How to complete this project
 
 Currently our customers are listed on a single page website. Once our customer portfolio grows we would like to create a feature pages for our biggest clients. Your assignment will be to create a stand alone web page dedicated to one of our customers. 
 
