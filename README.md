@@ -66,7 +66,7 @@ We suggest trying "mob programming". Mob programming is where one person is in c
 
 ---
 
-### Git & GitHub
+### 🖇 Git & GitHub
 
 Working as a team on GitHub takes some getting used to. If two members of your team edit code in the same file in the project and push the code to GitHub, there's a fair chance you'll run into a situation where your code conflicts. You'll have to solve the conflicts as a team and think of your teammates when committing code. **Committing small changes, very regularly makes it MUCH easier to handle conflicts**. Really - commit early and often.
 
