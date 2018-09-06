@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  padding-top: 11vh;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 5;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 58px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2.8px;
+}
+
+.nav-logo {
+  float: left;
+  margin: 12px 0 10px 90px;
+  width: 87px;
+}
+
+.nav-logo img {
+  width: 100%;
+}
+
+.nav-links {
+  float: right;
+  margin-right: 90px;
+  margin-top: 25px;
+}
+
+.hero {
+  background-image: url("./images/hero-nb.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 90vh;
+  width: 90%;
+  margin: 0 auto;
+}
