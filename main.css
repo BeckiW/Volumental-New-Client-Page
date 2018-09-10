@@ -160,6 +160,10 @@ footer ul li {
   padding-bottom: 100px;
 }
 
+.newsletter img {
+  width: 13px;
+}
+
 .image-container {
   position: relative;
   width: 100%;
