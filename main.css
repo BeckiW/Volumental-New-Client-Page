@@ -53,7 +53,15 @@ nav a, footer a {
 
 .hamburger {
   display: none;
-  margin: 15px 15px 5px 0;
+  margin: 18px 19px 0 0;
+}
+
+.icon-bar {
+  border-radius: 1px;
+  width: 22px;
+  height: 2px;
+  background-color: #000;
+  margin: 4px 0;
 }
 
 .hero {
@@ -180,6 +188,10 @@ footer ul li {
 }
 
 @media all and (max-width: 600px) {
+  .hero {
+    width: 100%;
+  }
+
   .column {
     width: 100%;
   }
@@ -212,7 +224,7 @@ footer ul li {
   .nav-logo {
     display: inline-block;
     float: left;
-    margin: 15px 0 5px 15px;
+    margin: 12px 0 0 12px;
     width: 58px;
   }
   .nav-links {
@@ -220,7 +232,13 @@ footer ul li {
   }
   .hamburger {
     float: right;
-    display: inline-block;
+    display: block;
+  }
+  .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
   }
 }
 
@@ -239,6 +257,8 @@ footer ul li {
     display: block;
     text-align: center;
     height: 100vh;
+    -webkit-transition: opacity 750ms ease-in-out;
+    transition: opacity 750ms ease-in-out;
   }
 
 .navbar.responsive ul {
@@ -264,7 +284,6 @@ footer ul li {
 
   .nav-logo {
     float: none;
-    margin: 15px 0 5px 15px;
     width: 58px;
   }
 }
