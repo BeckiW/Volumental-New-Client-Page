@@ -234,6 +234,7 @@ footer ul li {
     top: 0;
   }
   .navbar.responsive .nav-links {
+    background-color: #fff;
     float: none;
     display: block;
     text-align: center;
