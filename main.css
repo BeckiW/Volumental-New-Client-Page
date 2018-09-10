@@ -53,6 +53,11 @@ nav a, footer a {
   margin-top: 25px;
 }
 
+.hamburger {
+  display: none;
+  margin: 15px 15px 5px 0;
+}
+
 .hero {
   background-image: url("./images/hero-nb.png");
   background-position: center top;
@@ -202,6 +207,42 @@ footer ul li {
   .media {
      padding-bottom: 15px;
   }
+}
 
+@media screen and (max-width: 600px) {
+  .nav-logo {
+    display: inline-block;
+    float: left;
+    margin: 15px 0 5px 15px;
+    width: 58px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .hamburger {
+    float: right;
+    display: inline-block;
+  }
+}
 
+@media screen and (max-width: 600px) {
+
+  .navbar.responsive .hamburger {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive .nav-links {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .navbar.responsive ul li {
+    display: block;
+  }
+  .nav-logo {
+    float: none;
+    margin: 15px 0 5px 15px;
+    width: 58px;
+  }
 }
