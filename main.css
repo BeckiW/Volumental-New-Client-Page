@@ -107,12 +107,13 @@ p {
   font-size: 13px;
   line-height: 20px;
   letter-spacing: 1.6px;
+  margin: 0 0 10px;
   word-spacing: 5px;
   color: #333;
 }
 
-.bio p {
-  margin-bottom: 15px;
+.grid a:visited {
+  color: #000;
 }
 
 .bio {
