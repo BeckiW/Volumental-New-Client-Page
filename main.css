@@ -21,10 +21,10 @@ body {
 
 nav ul li {
   display: inline;
-  margin-right: 15px;
+  margin-right: 75px;
 }
 
-nav ul li:nth-last-child {
+nav ul li:last-child {
   margin-right: 0;
 }
 
@@ -72,7 +72,7 @@ nav a, footer a {
   position: relative;
   height: 90vh;
   top: 75px;
-  width: 90%;
+  width: 92.5%;
   margin: 0 auto;
 }
 
@@ -191,7 +191,11 @@ footer ul li {
   left: 0;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 1050px) {
+  nav ul li {
+    margin-right: 0;
+  }
+  
   .hero {
     width: 100%;
   }
@@ -258,7 +262,7 @@ footer ul li {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1050px) {
   .nav-logo {
     display: inline-block;
     float: left;
@@ -280,7 +284,7 @@ footer ul li {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1050px) {
   .nav-links {
     margin: 0;
   }
@@ -323,5 +327,11 @@ footer ul li {
   .nav-logo {
     float: none;
     width: 58px;
+  }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1250px) {
+  nav ul li {
+    margin-right: 40px;
   }
 }
