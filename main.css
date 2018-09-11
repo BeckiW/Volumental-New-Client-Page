@@ -66,11 +66,11 @@ nav a, footer a {
 
 .hero {
   background-image: url("./images/hero-nb.png");
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 90vh;
+  height: 85vh;
   top: 75px;
   width: 92.5%;
   margin: 0 auto;
@@ -78,6 +78,7 @@ nav a, footer a {
 
 .grid {
   padding: 20px;
+  padding-top: 75px;
 }
 
 .column {
@@ -98,7 +99,7 @@ h1 {
   letter-spacing: 7px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 80px;
+  margin-top: 110px;
   margin-bottom: 50px;
 }
 
@@ -141,6 +142,10 @@ img {
 .media, .text {
   width: 50%;
   padding-left: 20px;
+}
+
+footer {
+  padding-top: 180px;
 }
 
 .footer-nav {
@@ -195,7 +200,7 @@ footer ul li {
   nav ul li {
     margin-right: 0;
   }
-  
+
   .hero {
     width: 100%;
   }
@@ -247,6 +252,10 @@ footer ul li {
     position: absolute;
     top: 0;
     left: 0;
+  }
+
+  footer {
+    padding-top: 75px;
   }
 
   footer ul li {
