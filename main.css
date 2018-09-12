@@ -90,7 +90,7 @@ nav a, footer a {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: auto;
-  width: 55%;
+  width: 65%;
 }
 
 h1 {
@@ -140,9 +140,21 @@ img {
   height: auto;
 }
 
+.img-center {
+  margin: 0 auto 25px;
+  width: 150px;
+}
+
 .media, .text {
   width: 50%;
-  padding-left: 20px;
+}
+
+.media:first-child, .text:first-child {
+  padding-right: 50px;
+}
+
+.media:last-child, .text:last-child {
+  padding-left: 50px;
 }
 
 footer {
@@ -201,7 +213,6 @@ footer ul li {
 .sign-up-style {
   width: 200px;
   height: 50px;
-  /* background-color: #000; */
   margin: auto;
 }
 
@@ -245,17 +256,24 @@ footer ul li {
     padding: 0;
   }
 
+  .img-center {
+   width: 150px;
+  }
+
   .media {
-     padding-bottom: 15px;
+     padding-bottom: 25px;
+  }
+
+  .media:first-child, .text:first-child {
+    padding-right: 0;
+  }
+
+  .media:last-child, .text:last-child {
+    padding-left: 0;
   }
 
   .image-container {
     height: auto;
-  }
-
-  .image-container img {
-    position: relative;
-    top: 0;
   }
 
   .youtube-container {
