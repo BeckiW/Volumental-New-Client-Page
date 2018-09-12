@@ -224,6 +224,8 @@ footer ul li {
   display: block;
 }
 
+/* Media queries */
+
 @media all and (max-width: 1050px) {
   nav ul li {
     margin-right: 0;
@@ -304,22 +306,23 @@ footer ul li {
     line-height: 25px;
     text-transform: uppercase;
   }
-}
 
-@media screen and (max-width: 1050px) {
   .nav-logo {
     display: inline-block;
     float: left;
     margin: 12px 0 0 12px;
     width: 58px;
   }
+
   .nav-links {
     display: none;
   }
+
   .hamburger {
     float: right;
     display: block;
   }
+
   .icon-bar {
     display: block;
     width: 22px;
