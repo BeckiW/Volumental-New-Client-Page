@@ -329,9 +329,7 @@ footer ul li {
     height: 2px;
     border-radius: 1px;
   }
-}
 
-@media screen and (max-width: 1050px) {
   .nav-links {
     margin: 0;
   }
