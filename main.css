@@ -10,6 +10,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .navbar {
   background-color: #fff;
   position: fixed;
@@ -19,16 +24,16 @@ body {
   z-index: 5;
 }
 
-nav ul li {
+.navbar ul li {
   display: inline;
   margin-right: 75px;
 }
 
-nav ul li:last-child {
+.navbar ul li:last-child {
   margin-right: 0;
 }
 
-nav a, footer a {
+.navbar a, .footer-nav a {
   color: #000;
   text-decoration: none;
   font-size: 13px;
@@ -76,23 +81,6 @@ nav a, footer a {
   margin: 0 auto;
 }
 
-.grid {
-  padding: 20px;
-  padding-top: 75px;
-}
-
-.column {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin: auto;
-  width: 65%;
-}
-
 h1 {
   font-size: 30px;
   font-weight: 600;
@@ -112,13 +100,30 @@ p {
   color: #333;
 }
 
+.bio {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.grid {
+  padding: 20px;
+  padding-top: 75px;
+}
+
 .grid a:visited {
   color: #000;
 }
 
-.bio {
-  width: 100%;
-  margin-bottom: 60px;
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: auto;
+  width: 65%;
 }
 
 .row {
@@ -135,12 +140,7 @@ p {
   padding-bottom: 20px;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
-.img-center {
+.logo-center {
   margin: 0 auto 25px;
   width: 150px;
 }
@@ -168,7 +168,7 @@ footer {
   text-align: center;
 }
 
-footer ul li {
+.footer-nav ul li {
   display: inline;
   margin: 0 15px;
 }
@@ -255,11 +255,7 @@ input:focus, button:focus {
 }
 
 /* Media queries */
-@media all and (max-width: 1050px) {
-  nav ul li {
-    margin-right: 0;
-  }
-
+@media all and (max-width: 1080px) {
   .hero {
     width: 100%;
   }
@@ -287,7 +283,7 @@ input:focus, button:focus {
     padding: 0;
   }
 
-  .img-center {
+  .logo-center {
     width: 150px;
   }
 
@@ -321,16 +317,29 @@ input:focus, button:focus {
     padding-bottom: 50px;
   }
 
-  footer ul li {
+  .footer-nav ul li {
     display: block;
   }
 
-  footer ul li a {
+  .footer-nav ul li a {
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 2.8px;
     line-height: 25px;
     text-transform: uppercase;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input, button {
+    display: block;
+    margin: 20px auto 20px;
+  }
+
+  input {
+    width: 100%;
   }
 
   .nav-logo {
@@ -356,10 +365,6 @@ input:focus, button:focus {
     border-radius: 1px;
   }
 
-  .nav-links {
-    margin: 0;
-  }
-
   .navbar.responsive .hamburger {
     position: absolute;
     right: 0;
@@ -370,10 +375,9 @@ input:focus, button:focus {
     background-color: #fff;
     float: none;
     display: block;
+    margin: 0;
     text-align: center;
     height: 100vh;
-    -webkit-transition: opacity 750ms ease-in-out;
-    transition: opacity 750ms ease-in-out;
   }
 
   .navbar.responsive ul {
@@ -385,6 +389,7 @@ input:focus, button:focus {
 
   .navbar.responsive ul li {
     display: block;
+    margin-right: 0;
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -399,26 +404,12 @@ input:focus, button:focus {
 
   .nav-logo {
     float: none;
-    width: 58px;
-  }
-
-  form {
-    width: 100%;
-  }
-
-  input, button {
-    display: block;
-    margin: 20px auto 20px;
-  }
-
-  input {
-    width: 100%;
   }
 }
 
 
-@media screen and (min-width: 1050px) and (max-width: 1250px) {
-  nav ul li {
+@media screen and (min-width: 1080px) and (max-width: 1250px) {
+  .navbar ul li {
     margin-right: 40px;
   }
 }
