@@ -183,20 +183,6 @@ footer ul li {
   width: 13px;
 }
 
-.image-container {
-  position: relative;
-  width: 100%;
-  height: 0;
-  overflow: hidden;
-  padding-bottom: 56.25%;
-}
-
-.image-container img {
-  position: absolute;
-  top: -35px;
-  left: 0;
-}
-
 .youtube-container {
   position: relative;
   width: 100%;
@@ -271,14 +257,6 @@ footer ul li {
 
   .media:last-child, .text:last-child {
     padding-left: 0;
-  }
-
-  .image-container {
-    height: auto;
-  }
-
-  .image-container img {
-    position: static;
   }
 
   .youtube-container {
