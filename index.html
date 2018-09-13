@@ -141,7 +141,11 @@
         </p>
       </div>
       <div class="sign-up-style sign-up-hidden" id="sign-up">
-       <h3>Hello</h3>
+       <form action="http://httpbin.org/anything" method="post">
+         <input type="text" name="name" placeholder="Name" required />
+         <input type="email" name="email" placeholder="E-mail" required />
+         <button>Submit</button>
+       </form>
       </div>
     </div>
   </footer>
