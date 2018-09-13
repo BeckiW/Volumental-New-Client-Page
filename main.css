@@ -408,7 +408,7 @@ input:focus, button:focus {
 }
 
 
-@media screen and (min-width: 1080px) and (max-width: 1250px) {
+@media screen and (min-width: 1080px) and (max-width: 1270px) {
   .navbar ul li {
     margin-right: 40px;
   }
