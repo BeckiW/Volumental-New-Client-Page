@@ -318,6 +318,7 @@ input:focus, button:focus {
 
   footer {
     padding-top: 75px;
+    padding-bottom: 50px;
   }
 
   footer ul li {
@@ -400,7 +401,21 @@ input:focus, button:focus {
     float: none;
     width: 58px;
   }
+
+  form {
+    width: 100%;
+  }
+
+  input, button {
+    display: block;
+    margin: 20px auto 20px;
+  }
+
+  input {
+    width: 100%;
+  }
 }
+
 
 @media screen and (min-width: 1050px) and (max-width: 1250px) {
   nav ul li {
