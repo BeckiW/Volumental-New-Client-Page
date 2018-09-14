@@ -110,6 +110,10 @@ p {
   padding-top: 75px;
 }
 
+.grid a {
+  color: #000;
+}
+
 .grid a:visited {
   color: #000;
 }
